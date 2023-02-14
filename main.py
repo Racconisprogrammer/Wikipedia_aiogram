@@ -1,6 +1,7 @@
 from aiogram import types, Dispatcher, Bot, executor
 from api import weather
 from environs import Env
+from wikipedia import wiki
 
 env = Env()
 env.read_env()
